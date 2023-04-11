@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 main {
-    width: 800px;
+    width: 95%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -54,4 +55,33 @@ h2 {
 }
 #extracto {
   margin-bottom: 30px;
+}
+#link {
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+  .contenedor {
+    flex-direction: column-reverse;
+  }
+  .boton {
+    margin: 10px auto 20px;
+    width: 160px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 12px;
+}
+
+  #imagen {
+    height: 120px;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #link {
+    font-size: 12px;
+  }
 }
